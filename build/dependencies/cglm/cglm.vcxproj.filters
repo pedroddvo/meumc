@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\euler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\affine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\quat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\cam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\plane.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\frustum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\box.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\project.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\sphere.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\ease.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\curve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\bezier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\ray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\affine2d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_lh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_rh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_lh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_rh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_lh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_rh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_lh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_rh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_lh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_rh_zo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_lh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_rh_no.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5220317B-A927-39EB-BE73-B91D9D8B9318}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

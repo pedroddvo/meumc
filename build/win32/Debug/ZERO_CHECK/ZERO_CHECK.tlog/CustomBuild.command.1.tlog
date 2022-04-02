@@ -1,0 +1,10 @@
+^C:\USERS\POLIVEIRA\DESKTOP\DEV\C\MEUMC\BUILD\CMAKEFILES\BCE8E9BA0FDCC6FB5420F2954B68CE8B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Poliveira/Desktop/DEV/C/meumc -BC:/Users/Poliveira/Desktop/DEV/C/meumc/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Poliveira/Desktop/DEV/C/meumc/build/meumc.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2F238DD-33E9-384A-BE84-523DF5B853AE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>cglm</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">cglm.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">cglm-0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">cglm.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">cglm-0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">cglm.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">cglm-0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">cglm.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">cglm-0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR="Debug";cglm_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR=\"Debug\";cglm_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Debug/cglm-0.dll -installedDir C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/installed/x86-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Debug/cglm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Debug/cglm-0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR="Release";cglm_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR=\"Release\";cglm_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Release/cglm-0.dll -installedDir C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/installed/x86-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Release/cglm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/Release/cglm-0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR="MinSizeRel";cglm_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";cglm_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/MinSizeRel/cglm-0.dll -installedDir C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/installed/x86-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/MinSizeRel/cglm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/MinSizeRel/cglm-0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";cglm_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USRDLL;CGLM_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";cglm_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\include;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/RelWithDebInfo/cglm-0.dll -installedDir C:/Users/Poliveira/Desktop/DEV/C++/vcpkg/vcpkg/installed/x86-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/RelWithDebInfo/cglm.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/RelWithDebInfo/cglm-0.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Poliveira/Desktop/DEV/C/meumc/dependencies/cglm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Poliveira/Desktop/DEV/C/meumc -BC:/Users/Poliveira/Desktop/DEV/C/meumc/build --check-stamp-file C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\cglm.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Poliveira/Desktop/DEV/C/meumc/dependencies/cglm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Poliveira/Desktop/DEV/C/meumc -BC:/Users/Poliveira/Desktop/DEV/C/meumc/build --check-stamp-file C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\cglm.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Poliveira/Desktop/DEV/C/meumc/dependencies/cglm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Poliveira/Desktop/DEV/C/meumc -BC:/Users/Poliveira/Desktop/DEV/C/meumc/build --check-stamp-file C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\cglm.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Poliveira/Desktop/DEV/C/meumc/dependencies/cglm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Poliveira/Desktop/DEV/C/meumc -BC:/Users/Poliveira/Desktop/DEV/C/meumc/build --check-stamp-file C:/Users/Poliveira/Desktop/DEV/C/meumc/build/dependencies/cglm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\cglm.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Poliveira\Desktop\DEV\C\meumc\build\dependencies\cglm\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\euler.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\affine.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\io.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\quat.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\cam.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec2.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec3.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\vec4.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat2.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat3.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\mat4.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\plane.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\frustum.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\box.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\project.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\sphere.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\ease.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\curve.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\bezier.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\ray.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\affine2d.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_lh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_rh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_lh_no.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\persp_rh_no.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_lh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_rh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_lh_no.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\ortho_rh_no.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_lh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_rh_zo.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_lh_no.c" />
+    <ClCompile Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\dependencies\cglm\src\clipspace\view_rh_no.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Poliveira\Desktop\DEV\C\meumc\build\ZERO_CHECK.vcxproj">
+      <Project>{226B242F-A939-3742-AE49-23C8B4D4976D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
